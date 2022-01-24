@@ -1,0 +1,39 @@
+.width-full {
+  width: 100% !important;
+}
+
+.height-full {
+  height: 100% !important;
+}
+
+.mg-l-auto {
+  margin-left: auto !important;
+}
+
+.mg-r-auto {
+  margin-right: auto !important;
+}
+
+.mg-x-auto {
+  margin: 0 auto !important;
+}
+
+// 화면에서 숨기기
+.blind {
+  position: absolute;
+  margin: -1px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: polygon(0 0, 0 0, 0 0);
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.text {
+  &-center {
+    text-align: center !important;
+  }
+}

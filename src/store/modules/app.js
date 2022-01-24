@@ -1,5 +1,5 @@
 const state = {
-  title: '기본 타이틀'
+  title: '기본 타이틀',
 }
 
 const mutations = {

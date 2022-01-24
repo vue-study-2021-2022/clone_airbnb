@@ -1,0 +1,128 @@
+/* primary blue*/
+$white: #ffffff;
+$black: #000000;
+$primary: #6787ff;
+$red: #ff6d6d;
+$green: #4bbd42;
+
+/* primary */
+.primary {
+  background-color: $primary;
+}
+.primary-light-3 {
+  background-color: mix($primary, $white, 3%);
+}
+
+.primary-light-50 {
+  background-color: mix($primary, $white, 50%);
+}
+
+.primary-light-80 {
+  background-color: mix($primary, $white, 80%);
+}
+
+.primary-light-90 {
+  background-color: mix($primary, $white, 90%);
+}
+
+.primary-dark-10 {
+  background-color: mix($black, $primary, 10%);
+}
+
+.primary-dark-30 {
+  background-color: mix($black, $primary, 30%);
+}
+
+.primary-dark-50 {
+  background-color: mix($black, $primary, 50%);
+}
+
+/* green */
+.green {
+  background-color: $green;
+}
+.green-light-50 {
+  background-color: mix($white, $green, 50%);
+}
+
+.green-light-70 {
+  background-color: mix($white, $green, 70%);
+}
+
+.green-light-90 {
+  background-color: mix($white, $green, 90%);
+}
+
+.green-dark-30 {
+  background-color: mix($black, $green, 30%);
+}
+
+.green-dark-50 {
+  background-color: mix($black, $green, 50%);
+}
+
+/* red */
+.red {
+  background-color: $red;
+}
+
+.red-light-50 {
+  background-color: mix($white, $red, 50%);
+}
+
+.red-light-70 {
+  background-color: mix($white, $red, 70%);
+}
+
+.red-light-90 {
+  background-color: mix($white, $red, 90%);
+}
+
+.red-dark-30 {
+  background-color: mix($black, $red, 30%);
+}
+
+.red-dark-50 {
+  background-color: mix($black, $red, 50%);
+}
+
+/* gray */
+.gray {
+  background-color: mix($black, $white, 50%);
+}
+.gray-light-20 {
+  background-color: mix($black, $white, 20%);
+}
+
+.gray-light-10 {
+  background-color: mix($black, $white, 10%);
+}
+
+.gray-light-3 {
+  background-color: mix($black, $white, 3%);
+}
+
+.gray-dark-60 {
+  background-color: mix($black, $white, 60%);
+}
+
+.gray-dark-70 {
+  background-color: mix($black, $white, 70%);
+}
+
+.gray-dark-80 {
+  background-color: mix($black, $white, 80%);
+}
+
+/* table */
+$table-border: #dfe6ec;
+$table-border-light: #dfe4ed;
+$table-border-lighter: #e6ebf5;
+
+:export {
+  //primary: $primary;
+  //primaryDeep: $primary-deep;
+  //primaryLight: $primary-light;
+  //success: $success;
+  //warning: $warning;
+}

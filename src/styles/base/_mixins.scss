@@ -1,0 +1,7 @@
+@mixin vendorPrefix($attribute, $contents) {
+  -webkit-#{$attribute}: $contents;
+  -moz-#{$attribute}: $contents;
+  -o-#{$attribute}: $contents;
+  -ms-#{$attribute}: $contents;
+  #{$attribute}: $contents;
+}
