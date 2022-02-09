@@ -4,8 +4,8 @@
     :style="{ backgroundColor: 'lightgrey' }"
   >
     <nav class="nav">
-      <router-link to="/home">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/home">Home</router-link> | <router-link to="/about">About</router-link> |
+      <router-link to="/sample">Sample</router-link>
     </nav>
   </header>
 </template>

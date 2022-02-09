@@ -14,7 +14,7 @@ module.exports = {
   },
   devServer: {
     open: true,
-    host: process.env.VUE_APP_ENV === 'local' ? process.env.VUE_APP_DOMAIN : '0.0.0.0',
+    // host: process.env.VUE_APP_ENV === 'local' ? process.env.VUE_APP_DOMAIN : '0.0.0.0',
     port: process.env.VUE_APP_PORT,
     disableHostCheck: true,
   },

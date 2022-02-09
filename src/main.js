@@ -4,6 +4,7 @@ import store from './store'
 import router from './router'
 
 import './filter'
+import './plugins'
 
 import './styles/loop.scss'
 import './styles/index.scss'
