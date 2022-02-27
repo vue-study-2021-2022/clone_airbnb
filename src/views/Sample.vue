@@ -21,12 +21,16 @@
     <a-dialog :visible.sync="dialog.visible" width="80%">
       <div style="height: 300px">테스트</div>
     </a-dialog>
+
+    <a-counter v-model="counter_value" />
   </div>
 </template>
 
 <script>
+import ACounter from '@/components/counter'
 export default {
   name: 'ViewsSample',
+  components: { ACounter },
   data() {
     return {
       input_value: '',
@@ -36,6 +40,7 @@ export default {
       dialog: {
         visible: false,
       },
+      counter_value: 0,
     }
   },
 }
