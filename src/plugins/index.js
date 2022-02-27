@@ -1,3 +1,3 @@
 import './dayJs'
-import './gloabal'
+import './global'
 import './scrollTo'

@@ -28,7 +28,7 @@ import emitter from './js/emitter.js'
 import Popup from './js/popup.js'
 
 export default {
-  name: 'Dialog',
+  name: 'ADialog',
   mixins: [Popup, emitter, Migrating],
   props: {
     position: {

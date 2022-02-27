@@ -9,7 +9,7 @@ import Option from '@/components/elements/selectCustom/a-option.vue'
 import Textarea from '@/components/elements/textarea'
 import Form from '@/components/form/a-form.vue'
 import FormItem from '@/components/form/a-form-item.vue'
-import Dialog from '@/components/dialog/index'
+import Dialog from '@/components/dialog'
 import Switch from '@/components/elements/switch'
 
 const components = [

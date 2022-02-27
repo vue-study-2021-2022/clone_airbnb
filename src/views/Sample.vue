@@ -17,6 +17,10 @@
       <label>input_tel_password</label>
       <a-input v-model="input_value_tel_password" type="tel_password" />
     </div>
+    <a-button @click="dialog.visible = !dialog.visible">팝업</a-button>
+    <a-dialog :visible.sync="dialog.visible" width="80%">
+      <div style="height: 300px">테스트</div>
+    </a-dialog>
   </div>
 </template>
 
@@ -29,6 +33,9 @@ export default {
       input_value_tel: '',
       input_value_password: '',
       input_value_tel_password: '',
+      dialog: {
+        visible: false,
+      },
     }
   },
 }
