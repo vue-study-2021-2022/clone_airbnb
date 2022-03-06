@@ -21,8 +21,7 @@
     <a-dialog :visible.sync="dialog.visible" width="80%">
       <div style="height: 300px">테스트</div>
     </a-dialog>
-
-    <a-counter v-model="counter_value" />
+    <a-counter v-model="counter_value" max="21" step="5" min="0" />
   </div>
 </template>
 
