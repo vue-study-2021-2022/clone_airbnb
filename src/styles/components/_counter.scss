@@ -1,4 +1,9 @@
 .counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+
   /* Firefox */
   input[type='number'] {
     -moz-appearance: textfield;
