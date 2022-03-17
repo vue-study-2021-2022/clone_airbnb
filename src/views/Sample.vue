@@ -1,6 +1,6 @@
 <template>
   <div class="sample pd-x-40">
-    <h1>sample11</h1>
+    <h1>sample</h1>
     <div class="sample-item">
       <label>input</label>
       <a-input v-model="input_value" />
